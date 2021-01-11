@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.automationpractice.test.AddtoCartTest">
+        <methods>
+          <include name="setup"/>
+          <include name="addtocartitems"/>
+        </methods>
+      </class> <!-- com.automationpractice.test.AddtoCartTest -->
+      <class name="com.automationpractice.test.SearchPageTest">
+        <methods>
+          <include name="searchbytxtin"/>
+        </methods>
+      </class> <!-- com.automationpractice.test.SearchPageTest -->
+      <class name="com.automationpractice.test.SearchResultsTest">
+        <methods>
+          <include name="searchandadd"/>
+        </methods>
+      </class> <!-- com.automationpractice.test.SearchResultsTest -->
+      <class name="com.automationpractice.test.ProceedtocartTest">
+        <methods>
+          <include name="setup"/>
+          <include name="proceedtochecks"/>
+        </methods>
+      </class> <!-- com.automationpractice.test.ProceedtocartTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

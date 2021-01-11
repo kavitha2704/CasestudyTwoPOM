@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Automation]">
+  <test thread-count="5" name="AutomationPractise(failed)">
+    <classes>
+      <class name="com.automationpractice.test.SearchResultsTest">
+        <methods>
+          <include name="searchandadd"/>
+          <include name="close"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automationpractice.test.SearchResultsTest -->
+    </classes>
+  </test> <!-- AutomationPractise(failed) -->
+</suite> <!-- Failed suite [Automation] -->
